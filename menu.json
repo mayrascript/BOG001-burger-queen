@@ -1,0 +1,150 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Hamburguesa",
+      "types": [
+        {
+          "name": "Simple",
+          "price": 10,
+          "photo": "",
+          "variations": {
+            "meatType": ["cow", "chicken", "vegetarian"]
+          },
+          "additions": [
+            {
+              "name": "cheese",
+              "price": 1
+            },
+            {
+              "name": "egg",
+              "price": 1
+            }
+          ]
+        },
+        {
+          "name": "Doble",
+          "price": 15,
+          "photo": ""
+        }
+      ],
+      "group": "hamburger",
+      "foodType": ["lunch", "dinner"],
+      "defaultPhoto": ""
+    },
+    {
+      "id": 3,
+      "name": "Papas fritas",
+      "types": [
+        {
+          "name": "basic",
+          "price": 5,
+          "photo": ""
+        }
+      ],
+      "group": "accompaniment",
+      "foodType": ["lunch", "dinner"],
+      "defaultPhoto": ""
+    },
+    {
+      "id": 4,
+      "name": "Aros de Cebolla",
+      "types": [
+        {
+          "name": "basic",
+          "price": 5,
+          "photo": ""
+        }
+      ],
+      "group": "accompaniment",
+      "foodType": ["lunch", "dinner"],
+      "defaultPhoto": ""
+    },
+    {
+      "id": 5,
+      "name": "Agua",
+      "types": [
+        {
+          "name": "500ml",
+          "price": 5,
+          "photo": ""
+        },
+        {
+          "name": "750ml",
+          "price": 7,
+          "photo": ""
+        }
+      ],
+      "group": "drink",
+      "foodType": ["lunch", "dinner"],
+      "defaultPhoto": ""
+    },
+    {
+      "id": 6,
+      "name": "Bebida/gaseosa",
+      "types": [
+        {
+          "name": "500ml",
+          "price": 7,
+          "photo": ""
+        },
+        {
+          "name": "750ml",
+          "price": 10,
+          "photo": ""
+        }
+      ],
+      "group": "drink",
+      "foodType": ["lunch", "dinner"],
+      "defaultPhoto": ""
+    },
+    {
+      "id": 7,
+      "name": "Café",
+      "types": [
+        {
+          "name": "Americano",
+          "price": 5,
+          "photo": ""
+        },
+        {
+          "name": "Con Leche",
+          "price": 7,
+          "photo": ""
+        }
+      ],
+      "group": "drink",
+      "foodType": ["breakfast"],
+      "defaultPhoto": ""
+    },
+    {
+      "id": 8,
+      "name": "Sandwich",
+      "types": [
+        {
+          "name": "de jamón y queso",
+          "price": 10,
+          "photo": ""
+        }
+      ],
+      "group": "sandwich",
+      "foodType": ["breakfast"],
+      "defaultPhoto": ""
+    },
+    {
+      "id": 9,
+      "name": "Jugo",
+      "types": [
+        {
+          "name": "de Frutas Natural",
+          "price": 7,
+          "photo": ""
+        },
+      ],
+      "group": "drink",
+      "foodType": ["breakfast"],
+      "defaultPhoto": ""
+    }
+  ]
+
+}
